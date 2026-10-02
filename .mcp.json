@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "gaio": {
+      "command": "node",
+      "args": [
+        "dist/cli.js",
+        "mcp"
+      ]
+    }
+  }
+}

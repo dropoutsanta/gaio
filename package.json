@@ -1,0 +1,48 @@
+{
+  "name": "gaio",
+  "version": "0.1.0",
+  "description": "Self-hosted AIO/GEO monitoring engine that tracks your brand positioning across ChatGPT, Gemini, Perplexity, Claude and Google AI.",
+  "type": "module",
+  "bin": {
+    "gaio": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/cli.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.131.0",
+    "@modelcontextprotocol/sdk": "^1.31.0",
+    "better-sqlite3": "^12.11.1",
+    "commander": "^14.0.3",
+    "dotenv": "^18.0.5",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^26.6.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dropoutsanta/gaio.git"
+  },
+  "keywords": [
+    "geo",
+    "aio",
+    "ai-seo",
+    "llm",
+    "brand-monitoring",
+    "chatgpt",
+    "perplexity",
+    "gemini",
+    "mcp",
+    "dataforseo"
+  ]
+}
